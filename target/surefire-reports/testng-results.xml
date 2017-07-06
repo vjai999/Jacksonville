@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="10" total="14" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="functionalTestSuite" duration-ms="65600" started-at="2017-07-06T02:18:21Z" finished-at="2017-07-06T02:19:27Z">
+    <groups>
+      <group name="functionalTests">
+        <method signature="HomepageHoverTest.clickHoverElementLinksTest()[pri:0, instance:com.jacksonville.tests.HomepageHoverTest@3b81a1bc]" name="clickHoverElementLinksTest" class="com.jacksonville.tests.HomepageHoverTest"/>
+        <method signature="OfficeLocatorTests.filterByAllTest()[pri:0, instance:com.jacksonville.tests.OfficeLocatorTests@64616ca2]" name="filterByAllTest" class="com.jacksonville.tests.OfficeLocatorTests"/>
+        <method signature="OfficeLocatorTests.filterByOpenYourRoundTest()[pri:0, instance:com.jacksonville.tests.OfficeLocatorTests@64616ca2]" name="filterByOpenYourRoundTest" class="com.jacksonville.tests.OfficeLocatorTests"/>
+        <method signature="OfficeLocatorTests.filterByWallmartTest()[pri:0, instance:com.jacksonville.tests.OfficeLocatorTests@64616ca2]" name="filterByWallmartTest" class="com.jacksonville.tests.OfficeLocatorTests"/>
+      </group> <!-- functionalTests -->
+    </groups>
+    <test name="functionalTests" duration-ms="65600" started-at="2017-07-06T02:18:21Z" finished-at="2017-07-06T02:19:27Z">
+      <class name="com.jacksonville.tests.OfficeLocatorTests">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jacksonville.tests.OfficeLocatorTests@64616ca2]" name="setUp" is-config="true" duration-ms="6769" started-at="2017-07-05T22:18:44Z" finished-at="2017-07-05T22:18:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jacksonville.tests.OfficeLocatorTests.filterByAllTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="filterByAllTest()[pri:0, instance:com.jacksonville.tests.OfficeLocatorTests@64616ca2]" name="filterByAllTest" duration-ms="7071" started-at="2017-07-05T22:18:51Z" finished-at="2017-07-05T22:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByAllTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jacksonville.tests.OfficeLocatorTests@64616ca2]" name="tearDown" is-config="true" duration-ms="312" started-at="2017-07-05T22:18:58Z" finished-at="2017-07-05T22:18:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jacksonville.tests.OfficeLocatorTests@64616ca2]" name="setUp" is-config="true" duration-ms="7001" started-at="2017-07-05T22:18:59Z" finished-at="2017-07-05T22:19:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jacksonville.tests.OfficeLocatorTests.filterByOpenYourRoundTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="filterByOpenYourRoundTest()[pri:0, instance:com.jacksonville.tests.OfficeLocatorTests@64616ca2]" name="filterByOpenYourRoundTest" duration-ms="6044" started-at="2017-07-05T22:19:06Z" finished-at="2017-07-05T22:19:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByOpenYourRoundTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jacksonville.tests.OfficeLocatorTests@64616ca2]" name="tearDown" is-config="true" duration-ms="176" started-at="2017-07-05T22:19:12Z" finished-at="2017-07-05T22:19:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jacksonville.tests.OfficeLocatorTests@64616ca2]" name="setUp" is-config="true" duration-ms="7153" started-at="2017-07-05T22:19:12Z" finished-at="2017-07-05T22:19:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jacksonville.tests.OfficeLocatorTests.filterByWallmartTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="filterByWallmartTest()[pri:0, instance:com.jacksonville.tests.OfficeLocatorTests@64616ca2]" name="filterByWallmartTest" duration-ms="5687" started-at="2017-07-05T22:19:19Z" finished-at="2017-07-05T22:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByWallmartTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jacksonville.tests.OfficeLocatorTests@64616ca2]" name="tearDown" is-config="true" duration-ms="2136" started-at="2017-07-05T22:19:25Z" finished-at="2017-07-05T22:19:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jacksonville.tests.OfficeLocatorTests -->
+      <class name="com.jacksonville.tests.HomepageHoverTest">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jacksonville.tests.HomepageHoverTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="7527" started-at="2017-07-05T22:18:21Z" finished-at="2017-07-05T22:18:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jacksonville.tests.HomepageHoverTest.clickHoverElementLinksTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickHoverElementLinksTest()[pri:0, instance:com.jacksonville.tests.HomepageHoverTest@3b81a1bc]" name="clickHoverElementLinksTest" duration-ms="15491" started-at="2017-07-05T22:18:29Z" finished-at="2017-07-05T22:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickHoverElementLinksTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jacksonville.tests.HomepageHoverTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="213" started-at="2017-07-05T22:18:44Z" finished-at="2017-07-05T22:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jacksonville.tests.HomepageHoverTest -->
+    </test> <!-- functionalTests -->
+  </suite> <!-- functionalTestSuite -->
+</testng-results>

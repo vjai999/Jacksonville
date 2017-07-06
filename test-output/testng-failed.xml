@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [regressionSuite]">
+  <test name="regressionTests(failed)">
+    <classes>
+      <class name="com.jacksonville.tests.HomepageHoverTest">
+        <methods>
+          <include name="clickHoverElementLinksTest"/>
+          <include name="hoverFBElementTest"/>
+          <include name="setUp"/>
+          <include name="hoverDownArrowTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.jacksonville.tests.HomepageHoverTest -->
+      <class name="com.jacksonville.tests.PropUtilTest">
+        <methods>
+          <include name="getBrowserTest"/>
+          <include name="propUtilTest"/>
+          <include name="setUp"/>
+          <include name="screenShotTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.jacksonville.tests.PropUtilTest -->
+      <class name="com.jacksonville.tests.HomepageTests">
+        <methods>
+          <include name="titleAndUrlTest"/>
+          <include name="linksCountTest"/>
+          <include name="setUp"/>
+          <include name="dropdownAuthLinkTest"/>
+          <include name="getPageSourceTest"/>
+          <include name="click4ThLinkGetInformed"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.jacksonville.tests.HomepageTests -->
+      <class name="com.jacksonville.tests.OfficeLocatorTests">
+        <methods>
+          <include name="filterByWallmartTest"/>
+          <include name="setUp"/>
+          <include name="filterByAllTest"/>
+          <include name="tearDown"/>
+          <include name="filterByOpenYourRoundTest"/>
+        </methods>
+      </class> <!-- com.jacksonville.tests.OfficeLocatorTests -->
+    </classes>
+  </test> <!-- regressionTests(failed) -->
+</suite> <!-- Failed suite [regressionSuite] -->

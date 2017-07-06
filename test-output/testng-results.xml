@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39306" started-at="2017-07-06T02:14:50Z" finished-at="2017-07-06T02:15:29Z">
+    <groups>
+      <group name="functionalTests">
+        <method signature="HomepageHoverTest.clickHoverElementLinksTest()[pri:0, instance:com.jacksonville.tests.HomepageHoverTest@3532ec19]" name="clickHoverElementLinksTest" class="com.jacksonville.tests.HomepageHoverTest"/>
+      </group> <!-- functionalTests -->
+      <group name="regression">
+        <method signature="HomepageHoverTest.hoverDownArrowTest()[pri:0, instance:com.jacksonville.tests.HomepageHoverTest@3532ec19]" name="hoverDownArrowTest" class="com.jacksonville.tests.HomepageHoverTest"/>
+        <method signature="HomepageHoverTest.hoverFBElementTest()[pri:0, instance:com.jacksonville.tests.HomepageHoverTest@3532ec19]" name="hoverFBElementTest" class="com.jacksonville.tests.HomepageHoverTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Default test" duration-ms="39306" started-at="2017-07-06T02:14:50Z" finished-at="2017-07-06T02:15:29Z">
+      <class name="com.jacksonville.tests.HomepageHoverTest">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jacksonville.tests.HomepageHoverTest@3532ec19]" name="setUp" is-config="true" duration-ms="8024" started-at="2017-07-05T22:14:50Z" finished-at="2017-07-05T22:14:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jacksonville.tests.HomepageHoverTest.clickHoverElementLinksTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickHoverElementLinksTest()[pri:0, instance:com.jacksonville.tests.HomepageHoverTest@3532ec19]" name="clickHoverElementLinksTest" duration-ms="14742" started-at="2017-07-05T22:14:58Z" finished-at="2017-07-05T22:15:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickHoverElementLinksTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jacksonville.tests.HomepageHoverTest@3532ec19]" name="tearDown" is-config="true" duration-ms="220" started-at="2017-07-05T22:15:13Z" finished-at="2017-07-05T22:15:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jacksonville.tests.HomepageHoverTest@3532ec19]" name="setUp" is-config="true" duration-ms="6746" started-at="2017-07-05T22:15:13Z" finished-at="2017-07-05T22:15:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jacksonville.tests.HomepageHoverTest.hoverDownArrowTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="hoverDownArrowTest()[pri:0, instance:com.jacksonville.tests.HomepageHoverTest@3532ec19]" name="hoverDownArrowTest" duration-ms="246" started-at="2017-07-05T22:15:19Z" finished-at="2017-07-05T22:15:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverDownArrowTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jacksonville.tests.HomepageHoverTest@3532ec19]" name="tearDown" is-config="true" duration-ms="194" started-at="2017-07-05T22:15:20Z" finished-at="2017-07-05T22:15:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jacksonville.tests.HomepageHoverTest@3532ec19]" name="setUp" is-config="true" duration-ms="6765" started-at="2017-07-05T22:15:20Z" finished-at="2017-07-05T22:15:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jacksonville.tests.HomepageHoverTest.hoverFBElementTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="hoverFBElementTest()[pri:0, instance:com.jacksonville.tests.HomepageHoverTest@3532ec19]" name="hoverFBElementTest" duration-ms="221" started-at="2017-07-05T22:15:27Z" finished-at="2017-07-05T22:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverFBElementTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jacksonville.tests.HomepageHoverTest@3532ec19]" name="tearDown" is-config="true" duration-ms="2113" started-at="2017-07-05T22:15:27Z" finished-at="2017-07-05T22:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jacksonville.tests.HomepageHoverTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
